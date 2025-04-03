@@ -1,8 +1,8 @@
 
-let a = 10;
-let b = 20;
+//let a = 10;
+//let b = 20;
 
-console.log("The sum of a+b is: "+ (a + b)); // The sum of a+b is: 1020
+//console.log("The sum of a+b is: "+ (a + b)); // The sum of a+b is: 1020
 
 /*
 const factorial  = (n) => {
@@ -26,4 +26,21 @@ console.log(age);
 console.log(typeof(age));
 */
 
-// 28 : 30 (1)
+// Swapping 
+//Method-1 
+let a = 10;
+let b = 20;
+
+/*
+method-1
+let c = a; // c = 10
+a = b; // a = 20
+b = c; // b = 10 */
+/*Method-2
+a = a + b; // a = 30
+b = a - b; // b = 10 
+a = a - b; // a = 20 */
+/*Method-3 
+[a,b] = [b, a]
+*/
+console.log(a, b); 

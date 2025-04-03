@@ -40,3 +40,40 @@ to change the type of prompt to number/int we do:
 let age = Number(prompt("enter your age")) // now the type will be number/int
 
 ```
+
+
+# Swapping
+
+### Method-1
+```javascript
+  let a = 10;
+  let b = 20;
+
+  let c = a;
+  a = b;
+  b = c;
+  console.log(b) // b = 10
+  console.log(a) // a = 20
+```
+
+### Method-2
+```javascript
+  let a = 10
+  let b = 20
+
+  a = a + b // 30
+  b = a - b // 30 - 20 => b = 10
+  a = a - b // 30 - 10 => a = 20
+  console.log(a, b)
+
+
+```
+
+### Method-3
+```javascript
+let a = 10;
+let b = 20;
+
+[a , b] = [b , a]
+console.log(a, b) // 20 , 10
+```
